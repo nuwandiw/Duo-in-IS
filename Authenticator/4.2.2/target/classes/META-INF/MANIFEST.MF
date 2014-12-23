@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.identity.application.authenticator.duo
+ auth;uses:="org.wso2.carbon.identity.application.authentication.frame
+ work.config,com.duosecurity.client,org.apache.commons.logging,org.wso
+ 2.carbon.user.api,com.duosecurity.duoweb,org.wso2.carbon.identity.app
+ lication.authentication.framework,org.json,org.wso2.carbon.identity.a
+ pplication.authentication.framework.config.model,org.wso2.carbon.cont
+ ext,org.wso2.carbon.identity.application.authentication.framework.con
+ text,org.wso2.carbon.identity.application.authentication.framework.ex
+ ception,javax.servlet.http";version="4.2.2"
+Built-By: nuwandi
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.application.authenticator.duoaut
+ h
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_51
+Bundle-Version: 4.2.2
+Bnd-LastModified: 1419301473024
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: This is a Carbon bundle that represent the Identit
+ y module.
+Import-Package: com.duosecurity.client;resolution:=optional,com.duosec
+ urity.duoweb;resolution:=optional,javax.servlet;version="[2.6.0,3.0.0
+ )",javax.servlet.http;version="[2.6.0,3.0.0)",org.apache.commons.logg
+ ing;version="1.0.4",org.json;resolution:=optional,org.osgi.framework;
+ version="[1.7,2)",org.osgi.service.component;resolution:=optional;ver
+ sion="[1.2,2)",org.wso2.carbon.context;resolution:=optional;version="
+ [4.2,5)",org.wso2.carbon.identity.application.authentication.framewor
+ k;version="[4.2,5)",org.wso2.carbon.identity.application.authenticati
+ on.framework.config;version="[4.2,5)",org.wso2.carbon.identity.applic
+ ation.authentication.framework.config.model;version="[4.2,5)",org.wso
+ 2.carbon.identity.application.authentication.framework.context;versio
+ n="[4.2,5)",org.wso2.carbon.identity.application.authentication.frame
+ work.exception;version="[4.2,5)",org.wso2.carbon.identity.application
+ .authenticator.duoauth;resolution:=optional,org.wso2.carbon.user.api;
+ resolution:=optional;version="[1.0,2)",org.wso2.carbon.user.core.serv
+ ice;resolution:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.identity.application.authenticato
+ r.duoauth
+

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.identity.provisioning.connector.duo;us
+ es:="org.wso2.carbon.identity.application.common.model,com.duosecurit
+ y.client,org.apache.commons.logging,org.wso2.carbon.identity.provisio
+ ning,org.json";version="4.2.0"
+Built-By: nuwandi
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.provisioning.connector.duo
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_51
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1419302577231
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: Provisions IS users into Duo Security
+Import-Package: com.duosecurity.client;resolution:=optional,org.apache
+ .commons.logging;version="1.0.4",org.json;resolution:=optional,org.os
+ gi.framework;resolution:=optional;version="[1.7,2)",org.osgi.service.
+ component;resolution:=optional;version="[1.2,2)",org.wso2.carbon.iden
+ tity.application.common.model;resolution:=optional;version="[4.2,5)",
+ org.wso2.carbon.identity.provisioning;resolution:=optional;version="[
+ 4.2,5)",org.wso2.carbon.identity.provisioning.connector.duo;resolutio
+ n:=optional
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.identity.provisioning.connector.d
+ uo
+
